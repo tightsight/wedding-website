@@ -1,0 +1,91 @@
+body {
+	background-color: #fefefe;
+	padding: 0 15%;
+}
+
+.header {
+	padding: 25px 10px 25px 10px;
+	background-color: white;
+}
+
+.header .right-nav a {
+	float: right;
+	margin: 0 15px;
+	color: #444;
+}
+
+.anniversaries th {
+	background-color: #eee;
+}
+
+tr.year {
+	background-color: #ffeacf;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.title a {
+	text-decoration: none;
+	color: #444;
+}
+
+.grid-sizer, .grid-item {
+	width: 25%;
+	padding: 10px;
+	transition: .9s all;
+	cursor: pointer;
+}
+
+.grid-item.text-item {
+	padding: 5px 15px;
+
+}
+
+.grid-item:hover {
+	z-index: 2;
+}
+
+.poetry {
+	font-size: 12px;
+	line-height: 1.7em;
+}
+
+.modal {
+	text-align: center;
+}
+
+.modal.text-content .modal-body{
+	text-align: left;
+}
+
+#contentModal .modal-dialog {
+	display: inline-block;
+	width: auto;
+}
+
+.modal-body .poetry-title {
+	font-size: 16px;
+}
+
+.modal-body .poetry {
+	font-size: 14px;
+}
+
+.modal-body p {
+	margin-bottom: 15px;
+}
+
+.modal-body img {
+ 	max-height: calc(100vh - 100px);
+}
+
+.grid-item-width-2 {
+	width: 50%;
+}
+
+.grid-item-full {
+	width: 100%;
+}
