@@ -231,12 +231,14 @@
 			ga('send', 'pageview');
 
 
-			$('.grid').masonry({
-			  // options
-			  itemSelector: '.grid-item',
-			  columnWidth: '.grid-sizer',
-			  percentPosition: true
+				$('.grid').masonry({
+				  // options
+				  itemSelector: '.grid-item',
+				  columnWidth: '.grid-sizer',
+				  percentPosition: true
+				});
 			});
+
 
 			$('.grid-item').on('click', function(){
 				$('#contentModal').modal('show');
